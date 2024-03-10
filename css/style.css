@@ -63,10 +63,13 @@ h1,h2,h3,h4,h5,h6,p {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc
 }
 
 .header-menu {
   display: flex;
+  align-items: center;
+  
 }
 
 .header-logo {
@@ -77,6 +80,7 @@ h1,h2,h3,h4,h5,h6,p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo span {
@@ -131,10 +135,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 .hero {
   background: #2e2f42;
-}
-
-.hero-wrap {
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
